@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace DAY_15_BinarySearchTree
 {
     class Program
@@ -25,9 +26,12 @@ namespace DAY_15_BinarySearchTree
             binarySearch.Insert(63);
             binarySearch.Insert(67);
             binarySearch.Display();
+            bool result = binarySearch.IfExists(63, binarySearch);
+            Console.WriteLine(result);
             Console.ReadLine();
 
         }
     }
 }
+
 
